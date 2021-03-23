@@ -4,7 +4,7 @@
 }
 
 body{
-    font: 15px "Lato", Arial, sans-seriff;
+    font: 15px "Ubuntu", Arial, sans-seriff;
     background-color: #fff;
 }
 
@@ -34,17 +34,19 @@ body{
     margin: 1rem 0;
 }
 
+#dates a{
+    color: rgb(23, 113, 230);
+    text-decoration: none;
+}
+
 #dates table{
     margin-top: 0.8rem;
 }
 
 #dates table td{
     width: 450px;
+    padding: 10px;
     text-align: center;
-}
-
-#dates table td span{
-    width: 300px;
 }
 
 .color{

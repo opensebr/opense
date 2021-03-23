@@ -1,44 +1,55 @@
-footer{
-    padding: 20px 0 30px 0;
+.medias{
     text-align: center;
-    background: url(../images/fundo-rodape.png) no-repeat center top;
-    margin-top: 20px;
 }
 
-footer p:first-child {
-    margin: 2rem 0 0 0;
-    padding: 2px 10px;
+.medias p{
+    margin-top: 2rem;
 }
 
-footer .twitter{
+.medias .twitter{
     padding: 10px;
     border-radius: 0.5rem;
 
     background-color: #55ACEE;
+    border: 1px solid #2589d6;
     color: white;
     text-decoration: none;
 }
 
-footer .twitter img{
+.medias .twitter img{
     position: relative;
     top: 0.5rem;
     width: 2rem;
 }
 
+.medias p:last-child{
+    display: inline-block;
+    
+    margin: 4rem 0 1rem;
+
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0.5px solid #dfdfdf;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
 
 #social{
     display: flex;
-    flex-direction: column;
     justify-content: center;
+}
+
+#social .dev1, #social .dev2{
+    display: flex;
     align-items: center;
-}
+    margin: 0 0.5rem 2rem;
 
-#social p{
-    margin-bottom: 1rem;
-}
+    background-color: white;
+    padding: 7px;
+    border-radius: 10px;
+    border: 0.5px solid #dfdfdf;
 
-#social .dev1 .dev2{
-    margin: 0.5rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 #social a{
@@ -46,6 +57,13 @@ footer .twitter img{
 }
 
 #social img{
-    width: 2rem;
+    width: 1.5rem;
     margin-left: 0.5rem;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 1rem;
 }
